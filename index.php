@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <div>
+    <div class="wrap">
         <div>
             <?php require "header.html"; ?>
         </div>
