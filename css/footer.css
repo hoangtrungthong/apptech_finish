@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+.footer {
+    color: white;
+}
+.footer > div {
+    width: calc( (100% - 20px ) / 3);
+}
+.footer > div h2 {
+    margin-bottom: 20px;
+}
+.footer > div p {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.footer span {
+    text-transform: capitalize;
+}
+.footer span a {
+    display: inline-block;
+    text-transform: lowercase;
+}
+.footer > div li {
+    padding-bottom: 15px;
+}
+.footer > div:nth-child(2) ul li {
+    display: inline-block;
+}
+.footer > div:last-child ul li a {
+    display: inline-block;
+    text-transform: lowercase;
+}
+.contact {
+    color: white;
+}
+.email{
+    color: blue;
+}

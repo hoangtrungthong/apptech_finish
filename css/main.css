@@ -1,0 +1,54 @@
+.main {
+    margin-bottom: 40px;
+}
+.main p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main img {
+    border-radius: 25px;
+}
+.music , .feature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.music {
+    margin-bottom: 20px;
+}
+.slide {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+.slide li {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+.slide li a {
+    padding: 5px 15px;
+    color: white;
+}
+.slide li a.active , .slide li a:hover {
+    background-color: black;
+}
+.trending-song {
+    text-align: center;
+    margin-top: 50px;
+}
+.trending-song img {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.trending-song p {
+    text-transform: capitalize;
+}
+.trending-song p:last-child {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}

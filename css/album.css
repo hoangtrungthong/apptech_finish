@@ -1,0 +1,16 @@
+.albums {
+    margin-bottom: 50px;
+}
+.albums p {
+    color: white;
+    padding: 10px;
+}
+.albums p:first-child {
+    font-weight: bold;
+}
+.albums p:last-child {
+    padding-top: 0;
+}
+audio {
+    height: 30px;
+}
